@@ -1,6 +1,6 @@
-#header {height:150px;background-color:#EAC100;z-index: 99999;padding:1em;}
+#header {height:150px;background-color:#EAC100;z-index: 99999;padding:1em;position:sticky}
 #article {height:450px;background-color:#CAFFFF;z-index: 99999;padding:1em;background-repeat:no-repeat;}
-#footer {height:50px;background-color:#EAC100;z-index: 99999;padding:1em;position:fixed;bottom: 0;
+#footer {height:50px;background-color:#EAC100;z-index: 99999;padding:1em;position:static;bottom: 0;
 	left: 0;width: 100%;}
 html{}
 head{}
@@ -20,4 +20,5 @@ a:hover{color:#D2E9FF;}
 a:active{color:#007979;}
 td{}
 table{}
+
 div{}
